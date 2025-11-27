@@ -1,0 +1,89 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #003366;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #003366;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    background: linear-gradient(to right, #004c99, #0066cc);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: white;
+    color: #004c99;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Courses Section */
+.courses {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.course-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    width: 250px;
+    background: #e6f2ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+/* About */
+.about, .campus, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #003366;
+    color: white;
+}
